@@ -81,7 +81,7 @@ const AREAS = [
           {
             title: "AV1 - Jogo Quebrando a Banca",
             url: "https://canva.link/nit8rloceoqdnk1",
-            skills: "C5; H31; H32",
+            skills: "C5; H30; H31",
             objective: "Criar um jogo original utilizando conceitos de contagem, probabilidade e estratégias matemáticas para auxiliar na tomada de decisões.",
             subject: "Análise combinatória e probabilidade.",
             critique: "A atividade foi interessante por possibilitar a aplicação prática da matemática de forma criativa. Desenvolver o jogo contribuiu para uma melhor compreensão dos conceitos de probabilidade e do raciocínio combinatório."
@@ -89,7 +89,7 @@ const AREAS = [
           {
             title: "Atividade Filme Quebrando a Banca",
             url: "https://docs.google.com/document/d/1zX4vKS1hHDAdTTagzRUDN6Gty_cQCI9QZ-Ntw63pCmQ/edit?usp=sharing",
-            skills: "C5; H30; H31",
+            skills: "C5; H31; H32",
             objective: "Utilizar o pensamento probabilístico para reconhecer a aplicação da matemática em situações práticas, entendendo como probabilidade e estatística influenciam decisões e cálculos.",
             subject: "Probabilidade e estatística aplicadas ao filme Quebrando a Banca.",
             critique: "A atividade foi interessante por mostrar como a matemática pode ser aplicada além da sala de aula, em contextos reais como jogos e estratégias, facilitando a compreensão do conteúdo."
