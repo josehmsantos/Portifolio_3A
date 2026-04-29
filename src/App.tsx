@@ -12,12 +12,13 @@ import {
   ArrowUpRight,
   Menu,
   X,
-  Atom,
+  FlaskConical,
   Languages,
   Database,
   Rocket,
   Calculator,
-  Sparkles
+  Sparkles,
+  Cpu
 } from 'lucide-react';
 
 const STUDENT_INFO = {
@@ -106,7 +107,7 @@ const AREAS = [
   {
     id: "natureza",
     title: "Ciências da Natureza",
-    icon: Atom,
+    icon: FlaskConical,
     color: "bg-purple-500/10 text-purple-400 border-purple-500/20",
     description: "Prof Romuel",
     trimestres: [
@@ -224,7 +225,7 @@ const TECNICO_AREAS = [
   {
     id: "iot",
     title: "IOT",
-    icon: Atom,
+    icon: Cpu,
     color: "bg-rose-500/10 text-rose-400 border-rose-500/20",
     description: "Prof João",
     trimestres: [
