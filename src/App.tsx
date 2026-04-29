@@ -13,8 +13,11 @@ import {
   Menu,
   X,
   Atom,
-  Globe2,
-  Calculator
+  Languages,
+  Database,
+  Rocket,
+  Calculator,
+  Sparkles
 } from 'lucide-react';
 
 const STUDENT_INFO = {
@@ -39,7 +42,7 @@ const AREAS = [
   {
     id: "linguagens",
     title: "Linguagens",
-    icon: Globe2,
+    icon: Languages,
     color: "bg-blue-500/10 text-blue-400 border-blue-500/20",
     description: "Prof Claudia Prof Natali",
     trimestres: [
@@ -186,7 +189,7 @@ const TECNICO_AREAS = [
   {
     id: "banco-de-dados",
     title: "Banco de dados",
-    icon: Globe2,
+    icon: Database,
     color: "bg-indigo-500/10 text-indigo-400 border-indigo-500/20",
     description: "Prof Willer",
     trimestres: [
@@ -251,7 +254,10 @@ export default function App() {
     <div className="min-h-screen bg-zinc-950 text-zinc-100 font-sans selection:bg-blue-500/30">
       <nav className={`fixed top-0 w-full z-50 transition-all ${scrolled ? 'bg-zinc-900 border-b border-zinc-800 py-4' : 'bg-transparent py-6'}`}>
         <div className="max-w-5xl mx-auto px-6 flex justify-between items-center">
-          <div className="text-xl font-bold tracking-tight cursor-pointer" onClick={() => navigateTo('home')}>
+          <div className="text-xl font-bold tracking-tight cursor-pointer flex items-center gap-2" onClick={() => navigateTo('home')}>
+            <div className="p-1.5 bg-blue-600 rounded-lg">
+              <Rocket size={18} className="text-white" />
+            </div>
             <span className="italic capitalize">José</span><span className="text-blue-500">.</span>
           </div>
           <div className="flex gap-6">
